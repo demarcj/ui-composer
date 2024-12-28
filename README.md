@@ -1,75 +1,76 @@
-# Nuxt Minimal Starter
+# Ui Composer
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Overview
 
-## Setup
+Welcome to UI Composer, a browser-based motion graphics and visual effects editor inspired by the popular Adobe software. This platform provides the essential tools for animation, compositing, and VFX directly in your web browser, making powerful motion graphics accessible from anywhere.
 
-Make sure to install dependencies:
+## Upcoming Features
 
-```bash
-# npm
-npm install
+1. Key Features:
 
-# pnpm
-pnpm install
+- Layer-based Composition: Easily layer and manage visual elements to create complex compositions.
 
-# yarn
-yarn install
+- Keyframing and Animation: Animate properties such as position, scale, opacity, and rotation with intuitive keyframing.
 
-# bun
-bun install
-```
+- Effects and Presets: Apply a variety of visual effects, color corrections, and pre-designed animations.
 
-## Development Server
+- Real-time Preview: Preview changes instantly to streamline your workflow.
 
-Start the development server on `http://localhost:3000`:
+2. Compatibility:
 
-```bash
-# npm
-npm run dev
+- Works seamlessly on most modern web browsers (e.g., Chrome, Firefox, Edge).
 
-# pnpm
-pnpm dev
+- Optimized for desktops, but also accessible on tablets for on-the-go editing.
 
-# yarn
-yarn dev
+## Getting Started
 
-# bun
-bun run dev
-```
+1. Requirements:
 
-## Production
+- A device with an updated web browser.
 
-Build the application for production:
+- Internet connection.
 
-```bash
-# npm
-npm run build
+2. Steps to Start:
 
-# pnpm
-pnpm build
+- Start a New Project: Click “New Project” to begin creating your composition.
 
-# yarn
-yarn build
+- Begin Editing: Utilize the intuitive interface to build UI or create animations and effects.
 
-# bun
-bun run build
-```
+- Save and Export: Save your project or export.
 
-Locally preview production build:
+## Usage Guide and Roadmap
 
-```bash
-# npm
-npm run preview
+1. Interface Overview:
 
-# pnpm
-pnpm preview
+- Layers Panel: Manage individual layers and their properties.
 
-# yarn
-yarn preview
+- Timeline: Control the timing and sequencing of elements.
 
-# bun
-bun run preview
-```
+- Effect Panel: Explore available effects and presets.
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- Preview Window: View and edit your composition.
+
+2. Common Actions:
+
+- Adding Keyframes: Select a property, click the stopwatch icon, and adjust over time.
+
+- Applying Effects: Drag effects from the Effects Panel onto a layer.
+
+- Trimming Layers: Drag edges of the layer in the Timeline to adjust duration.
+
+## Known Limitations
+
+- Performance may vary depending on the device and internet speed.
+
+- Offline Mode: Allow editing without an active internet connection.
+
+- Expanded Effect Library: Add more effects and presets.
+
+- Mobile Optimization: Improve the UI and performance for mobile devices.
+
+## License
+
+- This project is licensed under the MIT License. See the LICENSE file for more information.
+
+- Bring your ideas to life effortlessly with the power of the UI Compose!
+
