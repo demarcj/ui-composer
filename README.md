@@ -32,11 +32,13 @@ Welcome to UI Composer, a browser-based motion graphics and visual effects edito
 
 2. Steps to Start:
 
-- Start a New Project: Click “New Project” to begin creating your composition.
+  1. Visit the Web App: Navigate to the hosted URL [demarcj.github.io/ui-composer](demarcj.github.io/ui-composer/).
 
-- Begin Editing: Utilize the intuitive interface to build UI or create animations and effects.
+  2. Start a New Project: Click “New Project” to begin creating your composition.
 
-- Save and Export: Save your project or export.
+  3. Begin Editing: Utilize the intuitive interface to build UI or create animations and effects.
+
+  4. Save and Export: Save your project or export.
 
 ## Usage Guide and Roadmap
 
