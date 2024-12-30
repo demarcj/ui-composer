@@ -5,5 +5,8 @@
 </style>
 
 <template>
-  <section></section>
+  <section>
+    <LayerHeader></LayerHeader>
+    <LayerItem></LayerItem>
+  </section>
 </template>

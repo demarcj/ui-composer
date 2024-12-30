@@ -1,4 +1,7 @@
 <style>
+  :root{
+    --layer-grid: 75px 1fr
+  }
   *{
     padding: 0;
     margin: 0;
