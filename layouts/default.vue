@@ -1,8 +1,8 @@
-<style>
+<style scoped>
   .app{
     display: grid;
     grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
+    max-height: 100vh;
   }
 </style>
 
