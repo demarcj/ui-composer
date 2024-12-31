@@ -2,7 +2,7 @@
 
 Overview
 
-Welcome to UI Composer, a browser-based motion graphics and visual effects editor inspired by the popular Adobe software. This platform provides the essential tools for animation, compositing, and VFX directly in your web browser, making powerful motion graphics accessible from anywhere.
+Welcome to UI Composer, a browser-based motion graphics and visual effects editor. This platform provides the essential tools for animation, compositing, and VFX directly in your web browser, making powerful motion graphics accessible from anywhere.
 
 ## Upcoming Features
 
