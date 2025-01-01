@@ -8,6 +8,9 @@
     box-sizing: border-box;
   }
   html{ color-scheme: dark }
+  a{
+    color: light-dark(black, white);
+  }
   button{
     padding: 5px;
   }
