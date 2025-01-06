@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import MainStage from './main/MainStage.vue';
-
+  import MainStage from './main/MainStage.vue';  
 </script>
 
 <style scoped>

@@ -14,8 +14,9 @@
 
 <script setup lang="ts">
   import { v4 as uuidv4 } from 'uuid';
-  import type { ElementModel } from '~/models'
-  // let selected: string[] = [];
+  import type { ElementModel } from '~/models';
+
+  let selected = use_select();
   const dummy: ElementModel[] = [
     {
       name: `Foo`,
@@ -90,6 +91,7 @@
   ];
 
   const highlight = (item: ElementModel) => {
+    selected.value = item;
     document.querySelectorAll(`.layer`).forEach(el => {
       if(el.id === item.id){
         el.classList.add(`selected`)
