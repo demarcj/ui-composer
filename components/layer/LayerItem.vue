@@ -105,6 +105,7 @@
 
 <template>
   <div class="layers" v-if="dummy?.length">
+    <ClientOnly>
       <div 
         class="layer" 
         v-for="(layer, index) in dummy" 
@@ -115,5 +116,6 @@
         <div class="index">{{ index }}</div>
         <div class="element">{{ layer.name }}</div>
       </div>
+    </ClientOnly>
   </div>
 </template>
