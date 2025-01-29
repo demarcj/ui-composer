@@ -94,9 +94,9 @@
     selected = item;
     document.querySelectorAll(`.layer`).forEach(el => {
       if(el.id === item.id){
-        el.classList.add(`selected`)
+        el.classList.add(`selected`);
       } else {
-        el.classList.remove(`selected`)
+        el.classList.remove(`selected`);
       }
     })
   }
