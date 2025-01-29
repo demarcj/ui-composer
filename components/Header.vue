@@ -13,8 +13,13 @@
   .list ul{
     position: absolute;
     top: 100%;
+    left: 0;
     background-color: #1c1b22;
     display: none; 
+    white-space: nowrap;
+  }
+  .list li:hover{
+    background-color: var(--highlight);
   }
 </style>
 
@@ -22,7 +27,12 @@
   <header>
     <nav>
       <ul class="list">
-        <li>Project</li>
+        <li>
+          <div>Project</div>
+          <ul>
+            <ProjectMenu></ProjectMenu>
+          </ul>
+        </li>
         <li>Elements</li>
         <li>View</li>
         <li>

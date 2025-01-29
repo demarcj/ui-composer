@@ -8,7 +8,7 @@
   .layers{overflow-y: auto;}
   .selected .element{
     color: black;
-    background-color: rgb(206, 206, 206);
+    background-color:  var(--highlight);;
   }
 </style>
 
@@ -16,7 +16,7 @@
   import { v4 as uuidv4 } from 'uuid';
   import type { ElementModel } from '~/models';
 
-  let selected = use_select();
+  let selected = null;
   const dummy: ElementModel[] = [
     {
       name: `Foo`,
@@ -91,7 +91,7 @@
   ];
 
   const highlight = (item: ElementModel) => {
-    selected.value = item;
+    selected = item;
     document.querySelectorAll(`.layer`).forEach(el => {
       if(el.id === item.id){
         el.classList.add(`selected`)
@@ -100,21 +100,20 @@
       }
     })
   }
+
 </script>
 
 <template>
-  <div class="layers">
-    <ClientOnly fallbackTag="div">
+  <div class="layers" v-if="dummy?.length">
       <div 
         class="layer" 
-        v-for="(item, index) in dummy" 
-        :key="item.id"
-        :id="item.id"
-        @click="highlight(item)"
+        v-for="(layer, index) in dummy" 
+        :key="layer.id"
+        :id="layer.id"
+        @click="highlight(layer)"
       >
         <div class="index">{{ index }}</div>
-        <div class="element">{{ item.name }}</div>
+        <div class="element">{{ layer.name }}</div>
       </div>
-    </ClientOnly>
   </div>
 </template>

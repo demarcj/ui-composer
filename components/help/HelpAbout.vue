@@ -6,7 +6,5 @@
 </script>
 
 <template>
-  <div>
-    <div @click="open_help">About</div>
-  </div>
+  <div @click="open_help">About</div>
 </template>

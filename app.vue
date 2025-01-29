@@ -1,6 +1,7 @@
 <style>
   :root{
-    --layer-grid: 75px 1fr
+    --highlight: rgb(206, 206, 206);
+    --layer-grid: 75px 1fr;
   }
   *{
     padding: 0;
